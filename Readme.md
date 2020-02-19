@@ -14,7 +14,7 @@ Ini adalah game berbasis website .Game ini adalah game kuis mengenai alam. Proje
 
 ## Screenshoot
 
-[Screenshoot home](screenshoot/home.png)
-[Screenshoot home2](screenshoot/home2.png)
-[Screenshoot kuis](screenshoot/kuis.png)
-[Screenshoot laut](screenshoot/laut.png)
+![Screenshoot home](screenshoot/home.png)
+![Screenshoot home2](screenshoot/home2.png)
+![Screenshoot kuis](screenshoot/kuis.png)
+![Screenshoot laut](screenshoot/laut.png)
