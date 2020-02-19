@@ -1,0 +1,180 @@
+body{
+	overflow: hidden;
+}
+.overlay{
+	position: fixed;
+	display: none;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 99;
+}
+.overlay p{
+	color: white;
+}
+.overlay img.main-diver{
+	width: 250px;
+	position: absolute;
+	bottom: 0;
+	right: 50px;
+}
+#androver{
+	display: none;
+}
+.primary{
+	position: absolute;
+	width: 100%;
+	background: url('../img/bg.png');
+	background-size: cover;
+	background-position: -20px;
+	width: 100%;
+	height: 100%;
+	transition: 0.1s;
+}
+
+.primarysatu{
+	position: absolute;
+	width: 100%;
+	background: url('../img/bg.png');
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+/*main island*/
+.primary .page .island-primary div.main-island img.img-island{
+	width: 500px;
+	margin-top: 280px;
+	display: inline-block;
+	position: relative;
+	transition: 0.3s;
+	cursor: pointer;
+}
+.primary .page .island-primary div.main-island img.img-island:hover{
+	transform: scale(1.05);
+}
+
+/*left island*/
+.primary .page .island-left div.left-island img.img-island{
+	width: 450px;
+	position: absolute;
+	margin-top: 420px;
+	margin-left: 50px;
+	transition: 0.3s;
+	cursor: pointer;
+
+}
+.primary .page .island-left div.left-island img.img-island:hover{
+	transform: scale(1.1);
+}
+
+/*right island*/
+.primary .page .island-right div.right-island img.img-island{
+	width: 450px;
+	position: absolute;
+	margin-top: 400px;
+	margin-left: 80px;
+	transition: 0.3s;
+	cursor: pointer;
+}
+section.popup-ucapan{
+	width: 300px;
+	height: 100px;
+	background: white;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	z-index: 99;
+	transform: translate(0,-500px);
+	transition: 0.3s;
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+}
+
+section.popup-ucapan h1{
+	text-align: center;
+	margin-top: 20px;
+}
+
+section.popup-ucapan strong{
+	text-align: center;
+	margin-top: 0;
+}
+div.hero-carousel{
+	position: absolute;
+	z-index: 999;
+	left: 0;
+	right: 0;
+	top: 50%;
+}
+
+.blur-filter {
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+
+}
+
+.island1{
+	width: 350px;
+}
+.island2{
+	width: 350px;
+}
+.island3{
+	width: 350px;
+}
+
+/*Media screen zone*/
+
+@media screen and (max-width: 1300px){
+	.primary .page .island-primary div.main-island img.img-island{
+		margin-left: 80px;
+	}
+
+	.primary .page .island-left div.left-island img.img-island{
+		margin-left: -40px;
+	}
+
+  
+}
+
+@media screen and (max-width: 1185px){
+	.primary{
+		background-position: -30px 0;
+	}
+	.primary .page .island-primary div.main-island img.img-island{
+		display: inline-block;
+		position: relative;
+		transition: 0.3s;
+		cursor: pointer;
+	}
+}
+@media screen and (max-width: 800px){
+	.primary{
+		background-position: -335px -20px;
+	}
+	.primary .page .island-primary div.main-island img.img-island{
+		width: 350px;
+		margin-top: 350px;
+		display: inline-block;
+		position: relative;
+		transition: 0.3s;
+		cursor: pointer;
+	}
+	#androver{
+		display: block;
+	}
+	img.img-island{
+		display: none;
+	}
+	#island-main{
+		display: none;
+	}
+}

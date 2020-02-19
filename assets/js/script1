@@ -1,0 +1,15 @@
+$(document).ready(function(){
+  $("section.input-nama").css("transform", "translate(0,-50%)");
+  $("section.input-nama").css("opacity", "1");
+  $("section.penutup-bg").css("opacity", "0.3");
+})
+
+$(".img-island").click(function() {
+    $(".overlay").toggle();
+    $(".primary").addClass("blur-filter");
+});
+$("#close").click(function(){
+    $(".overlay").toggle();
+    $(".primary").removeClass("blur-filter");
+
+});

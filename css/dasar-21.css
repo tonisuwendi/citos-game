@@ -1,0 +1,181 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body{
+  background: url(../assets/img/pulau_3.png);
+  background-size: cover;
+  overflow: hidden;
+
+}
+
+div.point-saya{
+  width: 160px;
+  height: 50px;
+  position: absolute;
+  z-index: 1;
+  padding-bottom: 10px;
+  background: rgba(255,255,255,0.8);
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 5px;
+  top: 10px;
+}
+
+div.point-saya h3{
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+  line-height: 50px;
+}
+.wrapper{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+
+}
+.wrapper img{
+  margin: 20px;
+  cursor: pointer;
+  width: 10px;
+}
+
+
+.wrapper img.kapal1{
+  position: absolute;
+  top: 340px;
+  width: 600px;
+  animation: kapalsatu 15s infinite;
+}
+
+@keyframes kapalsatu {
+  from {right: -700px;}
+    to {right: 1300px;}
+}
+
+.wrapper img.kapal2{
+  position: absolute;
+  width: 700px;
+  top: 300px;
+  animation: kapaldua 20s infinite;
+}
+
+@keyframes kapaldua {
+  from {right: -450px;}
+    to {right: 2000px;}
+}
+
+.wrapper img.kapal3{
+  position: absolute;
+  top: 100px;
+  width: 900px;
+  animation: kapaltiga 22s infinite;
+}
+
+@keyframes kapaltiga {
+  from {left: -300px;}
+    to {left: 2000px;}
+}
+
+.wrapper img.kapal4{
+  position: absolute;
+  top: 400px;
+  width: 1000px;
+  animation: kapalempat 22s infinite;
+}
+
+@keyframes kapalempat {
+ from {right: -400px;}
+ to {right: 2000px;}
+}
+
+.wrapper img.kapal5{
+  position: absolute;
+  top: -100px;
+  width: 900px;
+  animation: kapallima 25s infinite;
+}
+
+@keyframes kapallima {
+ from {right: -600px;}
+ to {right: 1100px;}
+}
+
+.wrapper img.kapal6{
+  position: absolute;
+  width: 600px;
+  top: -100px;
+  animation: kapalenam 20s infinite;
+}
+
+@keyframes kapalenam {
+ from {right: 1200px;}
+ to {right: -600px;}
+}
+
+.wrapper img.kapal7{
+  position: absolute;
+  top: 360px;
+  width: 600px;
+  animation: kapaltujuh 17s infinite;
+  transform: rotateY(180deg);
+}
+
+@keyframes kapaltujuh {
+  from {right: 1500px;}
+    to {right: -700px;}
+}
+
+.wrapper img.kapal8{
+  position: absolute;
+  top: 340px;
+  width: 700px;
+  animation: kapandelapan 20s infinite;
+}
+
+@keyframes kapandelapan {
+  from {right: -800px;}
+    to {right: 2100px;}
+}
+
+.wrapper img.kapal9{
+  position: absolute;
+  top: 10px;
+  width: 700px;
+  animation: kapalsembilan 26s infinite;
+  transform: rotateY(180deg);
+}
+
+@keyframes kapalsembilan {
+  from {right: 3000px;}
+    to {right: -500px;}
+}
+
+.wrapper img.kapal10{
+  position: absolute;
+  top: 3px;
+  width: 600px;
+  animation: kapalsepuluh 23s infinite;
+}
+
+@keyframes kapalsepuluh {
+  from {right: 2400px;}
+    to {right: -600px;}
+}
+
+.wrapper img:hover{
+  animation-play-state: paused;
+}
+
+.wrapper img:active{
+  transition: 0.3s;
+  transform: scale(1.3);
+}
+
+a.kembali{
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
